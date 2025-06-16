@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.car-display {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.car-img {
+  width: 90%;
+  max-width: 1000px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .car-img {
+    width: 100%;
+  }
+}
