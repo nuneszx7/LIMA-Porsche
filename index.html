@@ -5,12 +5,15 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <script src="https://cdn.tailwindcss.com"></script>
-  <title>Porsche</title>
+  <title>Porsche 911 Customization</title>
+  <link rel="shortcut icon" href="./img/favicon_io/favicon_io (1)/favicon-32x32.png" />
+
 
 </head>
 
 <body
   class="bg-[#f8f8f8] bg-[url('./img/Porsche.svg')] bg-contain bg-center bg-no-repeat min-h-screen flex flex-col overflow-hidden">
+
 
   <header class="flex justify-between items-center border-b p-4 md:p-8">
 
@@ -75,16 +78,82 @@
 
     <!-- seta pra esquerda -->
     <img src="./img/anterior.svg" alt="seta esquerda"
-      class="absolute top-[250px] md:top-[450px] lg:top-[400px] md:w-[40px] xl:w-[45px] hover:scale-150 delay-100 duration-200 rounded-r-full bg-white p-2">
+      class="absolute top-[250px] md:top-[450px] lg:top-[400px] md:w-[40px] xl:w-[45px] hover:scale-150 delay-100 duration-200 left-0">
 
     <!-- seta pra direita -->
     <img src="./img/proximo.svg" alt="seta direita"
-      class="absolute top-[250px] md:top-[450px] lg:top-[400px] md:w-[40px] xl:w-[45px] hover:scale-150 delay-100 duration-200 rounded-l-full bg-white p-2 right-0">
+      class="absolute top-[250px] md:top-[450px] lg:top-[400px] md:w-[40px] xl:w-[45px] hover:scale-150 delay-100 duration-200 right-0">
 
   </main>
 
 
+  <footer
+    class="drop-shadow-md bottom-0 flex w-full justify-around 2xl:h-[150px] md:justify-between items-start bg-[#e2e4e60f] px-4 md:px-8">
+    <p
+      class="text-sm md:text-2xl hover:scale-110 delay-100 duration-200 flex items-center gap-2 md:gap-4 bg-[#f8f8f8] px-2 py-2 md:px-6 md:py-2 rounded-2xl">
+      Technical Data
+      <span><img class="w-[35px] md:w-[55px]" src="./img/porsche.svg" alt="" /></span>
+    </p>
 
+    <div class="hidden 2xl:flex justify-between items-center gap-6 xl:text-xl">
+      <div class="gap-3 flex flex-col items-center hover:scale-125 delay-100 duration-200">
+        <img class="w-[60px] bg-white p-4 rounded-full" src="./img/color.svg" alt="Cores" />
+        <p>Colors</p>
+      </div>
+
+
+      <div class="gap-3 flex flex-col items-center hover:scale-125 delay-100 duration-200">
+        <img class="w-[60px] bg-white p-4 rounded-full" src="./img/wheels.svg" alt="Rodas" />
+        <p>Wheels</p>
+      </div>
+
+
+      <div class="gap-3 flex flex-col items-center hover:scale-125 delay-100 duration-200">
+        <img class="w-[60px] bg-white p-4 rounded-full" src="./img/matterials.svg" alt="Materiais" />
+        <p>Materials</p>
+      </div>
+
+
+      <div class="gap-3 flex flex-col items-center hover:scale-125 delay-100 duration-200">
+        <img class="w-[60px] bg-white p-4 rounded-full" src="./img/seat.svg" alt="assento" />
+        <p>Seats</p>
+      </div>
+
+
+      <div class="gap-3 flex flex-col items-center hover:scale-125 delay-100 duration-200">
+        <img class="w-[60px] bg-white p-4 rounded-full" src="./img/options.svg" alt="opções" />
+        <p>Options</p>
+      </div>
+
+
+      <div class="gap-3 flex flex-col items-center hover:scale-125 delay-100 duration-200">
+        <img class="w-[60px] bg-white p-4 rounded-full" src="./img/technologies.svg" alt="tecnologias" />
+        <p>Technology</p>
+      </div>
+
+
+      <div class="gap-3 flex flex-col items-center hover:scale-125 delay-100 duration-200">
+        <img class="w-[60px] bg-white p-4 rounded-full" src="./img/packages.svg" alt="pacotes" />
+        <p>Packages</p>
+      </div>
+
+
+      <div class="gap-3 flex flex-col items-center hover:scale-125 delay-100 duration-200">
+        <img class="w-[60px] bg-white p-4 rounded-full" src="./img/acessories.svg" alt="acessorios" />
+        <p>Accessories</p>
+      </div>
+
+
+    </div>
+
+
+    <div
+      class="hover:scale-110 delay-100 price h-full bg-black pb-3 pt-4 pl-6 pr-6 md:pb-5 md:pt-5 md:pl-10 md:pr-10 rounded-t-3xl text-center lg:text-left overflow-hidden">
+      <p class="text-[#898C9494] text-sm md:text-xl">Total Price</p>
+      <p class="text-white md:text-2xl">£125,356.00</p>
+    </div>
+
+  </footer>
 
 </body>
 
