@@ -7,8 +7,47 @@
   <title>Porsche</title>
 </head>
 <body class="bg-[#f8f8f808] bg-[url('./img/Porsche.svg')] bg-contain bg-center bg-no-repeat min-h-screen flex flex-col overflow-hidden">
-<header>
+
+<header class="flex justify-between items-center border-b p-4 md:p-8">
   
+  <button
+    data-collapse-toggle="navbar-hamburger"
+    type="button"
+    class="delay-100 duration-200 inline-flex items-center justify-center p-2 w-10 h-10 text-sm text-gray-500 rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
+    aria-controls="navbar-hamburger"
+    aria-expanded="false"
+  >
+    <span class="sr-only">Abrir menu</span>
+    <img class="w-5 h-5" src="./img/menu_hamburguer.svg" alt="Menu" />
+  </button>
+
+  
+  <img
+    class="w-[200px] h-[50px] md:w-[300px] xl:ml-[265px]"
+    src="./img/porschelogo.svg"
+    alt="Logo Porsche"
+  />
+
+  
+  <div class="flex gap-4 h-10 md:h-12">
+   
+    <img
+      class="hover:scale-110 delay-100 duration-200 bg-[#E7E8EA] p-3 rounded-full"
+      src="./img/user.svg"
+      alt="Usuário"
+    />
+
+    
+    <button
+      class="hidden xl:flex xl:text-xl hover:scale-110 delay-100 duration-200 rounded-full items-center bg-black text-white p-4 gap-5"
+    >
+      <span><img class="h-[20px]" src="./img/arrow.svg" alt="" /></span>
+      Find Porsche Center
+    </button>
+  </div>
 </header>
+
+
+
 </body>
 </html>
